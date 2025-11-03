@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:1.6;
+    background: white;
+    color: black;
+}
+#contenedor{
+    max-width:1200px;
+    margin: 0 auto;
+    background: #2e2e2e;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+#header{
+    background-color: #1F1F2E;
+    color: #FF6F3C;; 
+    text-align: center;
+    padding: 20px 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    font-style: unset;
+    text-shadow: 1px 1px 5px rgba(90, 87, 87, 0.5);
+}
+#barra{
+    background-color: #fffdfd;
+    border-bottom: 2px solid #000000;
+}
+#barra ul{
+    display: flex;
+    list-style:none;
+    justify-content: center;
+    gap: 10px
+}
+#barra a{
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: initial;
+    padding: 15px 25px;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+    margin-inline: 70px; 
+
+}
+#barra a:hover{
+    color: #ffffff;
+    background-color: #128fe2;
+}
+#barra a:hover::after{
+    width: 60px;
+}
+.video-banner {
+    width: 100%; 
+    height: 260px;     
+    object-fit: cover;
+    display: block;
+}
+#Preguntas{
+    background-color: #f7f7f7; 
+    padding: 60px 20px;
+    text-align: center;
+}
+#Preguntas p{
+    text-align: center;
+    font-size: 1.35rem; 
+    max-width: 800px;
+    margin: 0 auto 100px auto;  
+    padding: 0 20px;
+    color: #000000;
+    font-weight: bold;    
+}
+.titulo-pregunta {
+    font-size: 1.8em; 
+    margin-bottom: 0px;
+    text-align: center; 
+    margin-top: 30px;
+background: linear-gradient(to right, #1F1F2E, #128fe2, #2319aa);
+ -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+.pregunta-lista {
+    line-height: 1.5;
+    font-size: 1.35rem; 
+    font-weight: bold;
+    color:#000000;
+    text-align: center;
+    list-style: none;
+}
+.lista2{
+    display: flex;
+    justify-content: center;
+}
+.pregunta-lista ol {
+    margin-bottom: 6px;
+}
+
+#FAQ{
+    background-color: #f0f0f0;
+    padding: 60px 20px;
+    text-align: center;
+}
+.titulo-faq {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    background: linear-gradient(to right, #1F1F2E, #128fe2, #2319aa);
+-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+.faq-list {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+.faq-list li {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    list-style: none;
+}
+.faq-list p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #3d3b3b;
+}
+#footer {
+    background-color: #1F1F2E;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+}
+.footer-content p {
+    margin-bottom: 15px;
+}
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0;
+}
+.footer-links a {
+    color: #FF6F3C;
+    text-decoration: none;
+    font-weight: bold;
+}
