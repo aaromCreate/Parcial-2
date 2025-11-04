@@ -21,8 +21,97 @@
     </nav>
     <main id="body">
         <div class="contenido">
-            <iframe width="704" height="396" src="https://www.youtube.com/embed/Is3JE8cyEn8" allowfullscreen></iframe>
+            <h2 class="Encabezado">Video Tutorial: Introducción al Desarrollo de Videojuegos</h2>
+            <div class="contenedor-video">
+                <iframe width="704" height="396" src="https://www.youtube.com/embed/HdwBsL7mSCA" allowfullscreen></iframe>
+            </div>
+            <section id="proceso">
+                <ul class="paso-lista">
+                    <h2 class="titulo"> Planificación</h2>
+                    <li>Pensar una idea mediante una lluvia de ideas o brainstorming</li>
+                    <li>Análisis de mercado para investigar la viabilidad del juego, buscando títulos similares, precios y público objetivo</li>
+                    <li>Investigar el género y la temática para analizar qué hace que los juegos populares sean divertidos y cómo mejorar</li>
+                    <li>Hacer la idea más específica detallando mecánicas, controles, niveles, progresión, historia, estética, duración y plataforma</li>
+                    <li>Establecer recursos y necesidades como el equipo, roles, presupuesto y el coste estimado en tiempo y dinero</li>
+                    
+                </ul>
+                <ul class="paso-lista">
+                    <h2 class="titulo"> Preproducción</h2>
+                    <li>Formar el equipo principal necesario para el prototipo</li>
+                    <li>Hacer una prueba de concepto (Proof of Concept) para demostrar que el juego es técnicamente posible</li>
+                    <li>Hacer la demo (Vertical Slice) que debe ser una porción reducida pero jugable, con todas las mecánicas finales</li>
+                    <li>Conseguir financiación si es necesario (con publishers o crowdfunding)</li>
+                    <li>Publicar un tráiler y la página de Steam para empezar a conseguir wishlists</li>
+                    <li>Publicar la demo para obtener feedback, ganar fans y medir la atracción del público</li>
+                </ul>
+                <ul class="paso-lista">
+                    <h2 class="titulo"> Producción</h2>
+                    <li>Hacer un plan de producción (calendario de tareas) basado en el trabajo restante</li>
+                    <li>Crear una versión Alfa, que es jugable de principio a fin, aunque no tenga todo el contenido secundario</li>
+                    <li>Convertir el Alfa en una versión Beta, la cual está completa o casi completa, lista para ser testeada en busca de bugs</li>
+                    <li>Preparar el marketing de lanzamiento con un nuevo tráiler anunciando la fecha de salida</li>
+                    <li>Pulir la Beta hasta convertirla en la versión final</li>
+                    <li>Lanzar el juego</li>
+
+                </ul>
+                <ul class="paso-lista">
+                    <h2 class="titulo"> Postproducción</h2>
+                    <li>Arreglar bugs y fallos que la comunidad encuentre</li>
+                    <li>Lanzar en otras plataformas (consolas) o traducirlo a nuevos idiomas</li>
+                    <li>Considerar contenido extra o DLC</li>
+                </ul>  
+            </section>
+            <div class="nota">
+                <p><strong>Nota:</strong> El desarrollo de videojuegos es un proceso complejo que requiere planificación, creatividad y colaboración. Cada proyecto es único y puede requerir diferentes enfoques y técnicas.</p>
+            </div>
+        <div class="tutoriales-Motores">
+            <h2 class="titulo">Tutoriales de Motores de Juego</h2>
+            <ul class="motor-lista">
+                <img src="IMG/unity.jpg" alt="logo unity">
+                <li><a href="https://learn.unity.com/" target="_blank">Tutoriales de Unity</a> - Plataforma oficial de aprendizaje de Unity con cursos para principiantes y avanzados.</li>
+                <img src="IMG/unrealEngine.jpg" alt="logo Unreal Engine">
+                <li><a href="https://www.unrealengine.com/en-US/onlinelearning-courses" target="_blank">Tutoriales de Unreal Engine</a> - Cursos oficiales de Unreal Engine que cubren desde lo básico hasta técnicas avanzadas.</li>
+                <img src="IMG/godot.png" alt="logo Godot">
+                <li><a href="https://www.gdquest.com/tutorial/godot/" target="_blank">Tutoriales de Godot</a> - Recursos y tutoriales para aprender a usar el motor Godot.</li>
+                <img src="IMG/blender.jpg" alt="logo Blender">
+                <li><a href="https://mastodon.social/tags/b3d/" target="_blank">Tutoriales de Blender</a> - Guías para aprender a crear modelos 3D y animaciones con Blender.</li>
+            </ul>
         </div>
+        <section class="Practicas">
+                <div class="Concepto-GDD">
+                    <h3 class="titulo-concepto">Documento de Diseño de Juego</h3>
+                    <p>El GDD es la biblia de tu proyecto. Es un documento vivo que detalla todos los aspectos del juego: la historia, las mecánicas, los personajes, los niveles y la monetización. Su objetivo es asegurar que todo el equipo (diseñadores, programadores, artistas) trabaje con una visión unificada.</p>
+                    <ul>
+                        <li>Qué incluye: Visión general, público objetivo, jugabilidad, arte conceptual, requisitos técnicos etc..</li>
+                        <li>Tip clave: Un GDD no debe estar terminado antes de empezar a programar; debe evolucionar a medida que se desarrolla el juego.</li>
+                    </ul>
+                    <a href="Doc/Game Design Document.pdf" class="enlace-concepto">Ver Plantilla de GDD </a>
+                </div>
+
+                <div class="Concepto-GDD">
+                    <h3 class="titulo-concepto">Prototipado Rápido y Prueba de Concepto</h3>
+                    <p>El prototipado es la creación de versiones sencillas y funcionales para probar rápidamente si una mecánica es divertida antes de invertir tiempo en arte o código complejo. La Prueba de Concepto se enfoca en demostrar que el aspecto más riesgoso o innovador del juego es técnicamente viable.</p>
+                    <ul>
+                        <li>Objetivo: Validar el core gameplay y mitigar riesgos técnicos.</li>
+                        <li>Tip clave: Usa assets temporales o placeholders para centrarte solo en la funcionalidad.</li>
+                    </ul>
+                </div>
+
+                <div class="Concepto-GDD">
+                    <h3 class="titulo-concepto">Malas Prácticas a Evitar</h3>
+                    <p>Aprender de los errores es valioso, pero evitarlos es aún mejor. Conocer las malas prácticas comunes en el desarrollo de videojuegos puede ahorrarte incontables horas y frustraciones.</p>
+                    <ul>
+                        <li>Feature Creep: Añadir demasiadas características sin control, haciendo que el proyecto sea inabarcable.</li>
+                        <li>No Prototipar: Saltar directamente a la producción sin validar las mecánicas principales.</li>
+                        <li>Ignorar el GDD: No tener una visión clara o no actualizar el documento de diseño.</li>
+                        <li>Falta de Control de Versiones: No usar herramientas como Git, arriesgándote a perder trabajo o generar conflictos.</li>
+                        <li>Poco Testing: Lanzar el juego sin una fase de pruebas exhaustiva en busca de bugs.</li>
+                        <li>Diseño por Comité: Intentar complacer a todos, resultando en un juego sin identidad clara.</li>
+                    </ul>
+                    <img src="IMG/Rechazado.png" alt=" imagen de Rechazado">
+                </div>
+            </section>
+        </div> 
     </main>
         <footer id="footer">
             <div class="footer-content">
